@@ -1,0 +1,56 @@
+.form{
+    margin-top: 150px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.table{
+    padding-left: 2px;
+    border: white;
+}
+.title{
+    text-align: center;
+}
+input, select{
+    width: 100%;    
+    font-size: 18px;
+}
+label{
+    font-size: 18px;
+}
+#active{
+    color: rgb(4, 151, 151);
+    background: rgb(211, 206, 206);
+    padding: 8px;
+}
+textarea {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    width: 100%;
+}
+
+  article {
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+  }
+  
+  .thumbnail {
+    height: 100px;
+    margin: 10px;
+    width: 180px;
+  }
+
+  output{
+      display: inline;/**/
+  }
+/*
+ img{
+    height: 100px;
+    margin: 10px;
+    width: 180px;
+ }*/
+ input,select,label,h2,h4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }

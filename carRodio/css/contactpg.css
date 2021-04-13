@@ -1,0 +1,40 @@
+body {
+    background-image: url("/carRodio/img/contpg.jpg");
+    color: white;
+    font-size: 18px;
+    
+   }
+
+   
+.logo img{
+    margin-top: 10px;
+    margin-left: 2%;
+    width: 270px;
+  }
+
+   .form{
+    margin-top: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+   table{
+       width:60%;
+   }
+
+
+   td{
+    color: white;
+    border: 0px;
+    line-height: 40px;
+   }
+
+   input,textarea{
+    width: 100%;
+    border-radius: 10px;
+    border: 0px;
+  
+}
+textarea{
+    line-height: 60px;
+}

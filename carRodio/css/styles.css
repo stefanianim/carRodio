@@ -1,0 +1,203 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: rgb(76,100,108);
+  color: #969fa8;
+  font-size: 1.1em;
+  line-height: 1;
+  /*text-align: center;*/
+  overflow-x: hidden;
+  font-size: 12px;
+}
+
+div .logo{
+  padding: 15px;
+}
+
+.logo img{
+  width: 270px;
+}
+
+.main{
+  margin: 0;
+  padding: 0;   
+}
+
+.main img{
+  height: 700px;
+  padding-top: 60px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn {
+  background-color: e5e6e8;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  width: 170px;
+  opacity: 0.9;
+  border-radius: 12px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url("../img/bg.png");
+  min-height: 600px;
+  border-radius: 50px;
+
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Add styles to the form container */
+.containers {
+  position: absolute;
+  right: 270px;
+  margin-top: 70px;
+  max-width: 550px;
+  padding: 16px;
+  /*background-color: white;*/
+}
+/* Add styles to the form container */
+.container {
+  position: absolute;
+  right: 270px;
+  margin-top: 200px;
+  width: 550px;
+  padding: 16px;
+  /*background-color: white;*/
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password], select, option {
+  width: 100%;
+  padding: 10px;
+  margin: 15px;
+  border: none;
+  border-radius: 12px;
+  background: #e5e6e8;
+}
+
+input[type=text]:focus, input[type=password]:focus, select:focus {
+  background-color: #e5e6e8;
+  outline: none;
+}
+
+/*.box1, .box2{
+  display: inline;
+  width: 75%;
+  margin: 10px;
+}
+
+
+.flex-box{
+  align-items: center;
+  justify-content: center;
+}*/
+
+/* The checkbox container */
+.checkbox {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  
+}
+
+/* Hide the browser's default checkbox */
+.checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.checkbox:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.checkbox input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.checkbox input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.checkbox .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-container > div {
+  margin: 0px;
+  padding: 10px;
+}
+
+p .link{
+  padding-left: 40px;
+}
+
+p .fp{
+  margin: 0;
+}
+
+p{
+  padding-left: 30px;
+}
+

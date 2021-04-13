@@ -1,0 +1,25 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2{
+    margin-top: 150px;
+    text-align: center;
+}
+.contacts{
+    margin-top: 100px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+table{
+    width:80%;
+    border: 1px solid black;
+}
+td{
+    padding: 10px;
+}
+
+.time{
+    text-align: right;
+}
+
